@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QPICK</title>
+    <link rel="stylesheet" href="./sait/style.css">
+    <link rel="stylesheet" href="./sait/media.css">
+</head> 
+<body>
+    <header>
+        <div class="headerr"> 
+            <a class="sss" href="./index.html"><h2>QPICK</h2></a>
+            <div class="catalog">
+                <img src="./img/burger.svg" alt="">
+                <p>Каталог</p>
+            </div>
+            <nav class="menu">
+                <a href="">Mac</a>
+                <a href="">iPhone</a>
+                <a href="">Watch</a>
+                <a href="">iPad</a>
+                <a href="">Аксессуары</a>
+            </nav>
+            <div class="search">
+                <img src="./img/glass.svg" alt="">
+                <input type="search" name="" id="" placeholder="Поиск по сайту">
+            </div>
+            <div class="l_b">
+                <div onclick="location='./liked.html'" class="like">
+                    <img src="./img/heart.svg" alt="">
+                    <p>Избранное</p>
+                    <div class="g">
+                        <span id="g">0</span>
+                    </div>
+                </div>
+                <div onclick="location='./basket.html'" class="basket">
+                    <img src="./img/basket.svg" alt="">
+                    <p>Корзина</p>
+                    <div class="g">
+                        <span id="g2">0</span>
+                    </div>
+                </div>
+            </div>
+            <button id="button_reg" type="button">
+                <img src="./img/user_2.svg" alt="">
+                <p>Войти</p>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="stock">
+            <div class="container_2">
+                <div class="event">
+                    <div class="tx">
+                        <h1>Купить</h1>
+                        <h2>Iphone 15</h2> 
+                        <h2>Iphone 15 Pro</h2>
+                        <h2>Iphone 15 Pro Max</h2>
+                    </div>
+                    <img src="./img/ev_ip.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="overlay"> 
+            <div class="er">
+                <div class="wrapper"> 
+                    <h1>Войти</h1>
+                    <form action="" class="reg">
+                        <div class="input-box">
+                            <input type="tel" pattern="8[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder="Номер телефона" id="tel" required>
+                            <img src="./reglog/lock.svg" alt="">
+                        </div>
+                        <div class="input-box skr_2">
+                            <input type="email" placeholder="Адрес электронной почты" id="email" required>
+                            <img src="./reglog/lock.svg" alt="">
+                        </div>
+                        <div class="input-box skr skr_2">
+                            <input type="text" placeholder="Ваше имя" id="name" required>
+                            <img src="./reglog/lock.svg" alt="">
+                        </div>
+                        <button type="button" id="submit">Вход</button>
+                        <div class="regg">
+                            <p>У вас нет учетной записи?</p>
+                            <button type="button" id="submit_2">Регистрация</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="sect_categ">
+            <div class="categ container_2">
+                <div class="block_1">
+                    <div class="block">
+                        <img src="./img/phone.svg" alt="">
+                        <h3>IPhone</h3>
+                    </div>
+                    <div class="block">
+                        <img src="./img/phone2.svg" alt="">
+                        <h3>IPad</h3>
+                    </div>
+                    <div class="block">
+                        <img src="./img/macbook.svg" alt="">
+                        <h3>MacBook</h3>
+                    </div>
+                    <div class="block">
+                        <img src="./img/monoblock.svg" alt="">
+                        <h3>IMac</h3>
+                    </div>
+                </div>
+                <div class="block_2">
+                    <div class="block">
+                        <img src="./img/watch2.svg" alt="">
+                        <h3>Apple Watch</h3>
+                    </div>
+                    <div class="block">
+                        <img src="./img/airpods.svg" alt="">
+                        <h3>Air Pods</h3>
+                    </div>
+                    <div class="block">
+                        <img src="./img/monitor.svg" alt="">
+                        <h3 class="cosuac">Apple Display</h3>
+                    </div>
+                    <div class="block">
+                        <img src="./img/tag.svg" alt="">
+                        <h3>AirTag</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stock_1">
+            <div class="dop_event_1 container_2">
+                <div class="txt">
+                    <h2>Не упусти свой шанс</h2>
+                    <p>Успей купить</p>
+                    <div class="dinam_txt">
+                        <p>Осталось:</p>
+                        <span>9 Дней</span>
+                    </div>
+                </div> 
+                <div class="proposal">
+                    <div>
+                        <p class="p1">При покупке:</p>
+                        <div class="im1">
+                            <img src="./img/watch.svg" alt="">
+                            <img class="plus" src="./img/plus.svg" alt="">
+                            <img src="./img/watch.svg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                    <div class="im2">
+                        <img src="./img/watch.svg" alt="">
+                    </div>
+                    <p class="p2">В подарок!!!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="card_prod container">
+            <div class="big_card_poz card_display_none">
+                <div class="big_card">
+                    <div class="im_n">
+                        <img src="./img/card6.jpg" alt="">
+                        <h2>Apple IPhone XR</h2>
+                        <ul>
+                            <li>Процессор: A12 Bionic с Neural Engine</li>
+                            <li>Батарея: до 25 часов</li>
+                            <li>ОС: iOS</li>
+                            <li>Камера: 12-мегапикселей</li>
+                            <li>Вес 194г</li>
+                        </ul>
+                    </div>
+                    <div class="des_but">
+                        <p>Погрузитесь в мир инновационных технологий с Apple iPhone XR. Этот элегантный смартфон обеспечивает исключительное качество изображения благодаря своему Liquid Retina дисплею, предлагая яркие и четкие цвета на каждом экране.</p>
+                        <p>С мощным процессором A12 Bionic ваш опыт работы с приложениями и играми станет еще более плавным и быстрым. Улучшенная камера позволяет делать великолепные фотографии и видео даже в условиях недостаточного освещения. iPhone XR — это не просто смартфон, это идеальное сочетание стиля, функциональности и производительности для современного образа жизни.</p>
+                        <p>Улучшенная камера позволяет делать великолепные фотографии и видео даже в условиях недостаточного освещения.</p>
+                        <p>iPhone XR — это не просто смартфон, это идеальное сочетание стиля, функциональности и производительности для современного образа жизни.</p>
+                        <button>Купить</button>
+                    </div>
+                </div>
+            </div>
+            <h3>Выгодные предложения</h3>
+            <div class="cards_all">
+                <div class="card_1 card card23">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="img_gem" src="./img/card1.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple IPhone XR</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.0</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="price_scr">35000 P</p>
+                            <del>39000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_2 card card23">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="img_gem" src="./img/card2.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple AirPods Pro</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.7</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="price_scr">19000 P</p>
+                            <del>25000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_3 card card23">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="img_gem" src="./img/card3.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple IPhone 12</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.5</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="price_scr">55000 P</p>
+                            <del>62000 P</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards_all">
+                <div class="card_4 card card23">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="img_gem" src="./img/card4.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple IPad mini</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.9</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="price_scr">33000 P</p>
+                            <del>40000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_5 card card23">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="img_gem" src="./img/card5.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple MacBook Air M1</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>3.7</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="price_scr">160000 P</p>
+                            <del>190000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_6 card card23">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="img_gem" src="./img/card6.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple MacBook Pro M1</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.2</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="price_scr">200000 P</p>
+                            <del>240000 P</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards_all">
+                <div class="card_7 card card23">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="img_gem" src="./img/card7.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple Watch 8</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.7</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="price_scr">45000 P</p>
+                            <del>54000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_8 card card23">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="img_gem" src="./img/card8.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple AirPods</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.9</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="price_scr">12000 P</p>
+                            <del>15000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_9 card card23">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="img_gem" src="./img/card9.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple Watch SE</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>3.8</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="price_scr">20000 P</p>
+                            <del>24000 P</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stock_2">
+            <div class="dop_event container_2">
+                <h2>Аксессуары для Iphone 15 Pro Max</h2>
+                <img src="./img/dop_event.jpg" alt="">
+            </div>
+        </section>
+        <section class="accessories container">
+            <h3>Аксессуары</h3>
+            <div class="accessories_all">
+                <div class="accessories_1 accessories_0">
+                    <img src="./img/acses_1.jpg" alt="">
+                    <h3>Чехлы</h3>
+                </div>
+                <div class="accessories_2 accessories_0">
+                    <img src="./img/acses_2.jpg" alt="">
+                    <h3>Зарядные устройства</h3>
+                </div>
+                <div class="accessories_3 accessories_0">
+                    <img src="./img/acses_3.jpg" alt="">
+                    <h3>Защитные стекла</h3>
+                </div>
+            </div>
+        </section>
+        <section class="watch_bonus">
+            <div class="watch_bonus_cont container_2">
+                <div class="ot_watch">
+                    <img src="./img/watch_1.jpg" alt="">
+                    <img src="./img/watch_2.jpg" alt="">
+                </div>
+                <div class="rt_watch">
+                    <div class="watch_left">
+                        <div class="w_2_m">
+                            <div class="w_2">
+                                <img src="./img/apple-Icons.svg" alt="">
+                                <img src="./img/plus_2.svg" alt="">
+                                <img src="./img/apple-Icons.svg" alt="">
+                            </div>
+                            <p>20000 + 20000</p>
+                        </div>
+                        <img src="./img/ravno.svg" alt="">
+                        <div class="w_3_m">
+                            <p>40000 р</p>
+                            <div class="w_3">
+                                <img src="./img/apple-Icons.svg" alt="">
+                                <img src="./img/plus_2.svg" alt="">
+                                <img src="./img/apple-Icons.svg" alt="">
+                                <img src="./img/plus_2.svg" alt="">
+                                <img src="./img/apple-Icons.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="watch_right">
+                        <img src="./img/watch_3.jpg" alt="">
+                        <h2>В подарок!!!</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="card_prod2 container">
+            <h3>Уценка / наушники</h3>
+            <div class="cards_all">
+                <div class="card_1 card">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img src="./img/y_n1.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple IPhone XR</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.0</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>35000 P</p>
+                            <del>39000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_2 card">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img src="./img/y_n2.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple AirPods Pro</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.7</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>19000 P</p>
+                            <del>25000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_3 card">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img class="c3" src="./img/y_n3.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple IPhone 12</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.5</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>55000 P</p>
+                            <del>62000 P</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Уценка / беспроводные наушники</h3>
+            <div class="cards_all">
+                <div class="card_4 card">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img src="./img/y_n4.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple IPad mini</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.9</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>33000 P</p>
+                            <del>40000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_5 card">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img src="./img/y_n56.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple MacBook Air M1</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>3.7</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>160000 P</p>
+                            <del>190000 P</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_6 card">
+                    <!-- Здесь будет картинка сердечко -->
+                    <img src="./img/y_n56.jpg" alt="">
+                    <div class="txt_flex">
+                        <div class="txt">
+                            <h2>Apple MacBook Pro M1</h2>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                                <p>4.2</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>200000 P</p>
+                            <del>240000 P</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="all_categori">
+        <h2>Здесь должны быть категории!!!</h2>
+    </div>
+    <div class="dlya_korziny">
+        <h2 id="dlya_korziny">sdf</h2>
+        <div class="g">
+            <span id="g">22</span>
+        </div>
+    </div>
+    <footer>
+        <div class="footter container_2">
+            <div class="panel">
+                <a href="">О компании</a>
+                <a href="">Условия</a>
+                <a href="">Оплата</a>
+                <a href="">Гарантия</a>
+                <a href="">Контакты</a>
+            </div>
+        </div>
+        <div class="footter2 container_2">
+            <div class="mob_time">
+                <a href="tel:+79842702595">8(984)-270-25-95</a>
+                <p>с 9:00 до 22:00, без выходных</p>
+            </div>
+            <div class="contacts">
+                <img src="./img/vk-alt-svgrepo-com.svg" alt="ВК">
+                <img src="./img/telegram-svgrepo-com.svg" alt="ТГ">
+                <img src="./img/instagram-svgrepo-com.svg" alt="ИНСТ">
+                <img src="./img/mail-alt-svgrepo-com.svg" alt="МЫЛО">
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./sait/header.js"></script>
+    <script src="./reglog/reglog.js"></script>
+    <script src="./sait/obhs_script.js"></script>
+    <script src="./sait/basket.js"></script>
+    <script src="./sait/categori.js"></script>
+</body>
+</html>
